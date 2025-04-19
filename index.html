@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <!-- Link to Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Link to the external CSS file -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Loading Animation -->
+    <div id="loader">
+        <div class="spinner"></div>
+    </div>
+
+    <header>
+        <h1>Welcome to My Website</h1>
+        <nav>
+            <ul>
+                <li><a href="#about"><i class="fas fa-user"></i> About</a></li>
+                <li><a href="#services"><i class="fas fa-cogs"></i> Services</a></li>
+                <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- About Section -->
+        <section id="about" class="box">
+            <h2><i class="fas fa-user"></i> About Me</h2>
+            <p>Hello! My name is Manu Eldho, and I am an aspiring AI enthusiast and student currently diving deep into the world of Artificial Intelligence. I am passionate about understanding how machines learn, solve problems, and interact with humans to create meaningful solutions.</p>
+            <p>My journey in AI began with a fascination for technology and its potential to transform industries. Whether it's building machine learning models, exploring neural networks, or working on natural language processing projects, I love tackling challenges that push the boundaries of what AI can achieve.</p>
+            <p>In addition to AI, I enjoy experimenting with programming languages like Python, exploring data science techniques, and staying up-to-date with the latest advancements in tech. Outside of coding, you'll often find me reading research papers, brainstorming creative applications of AI, or collaborating with peers on innovative projects.</p>
+            <p>My ultimate goal is to contribute to the development of ethical and impactful AI systems that can improve lives and drive positive change in society. If you share similar interests or would like to collaborate, feel free to reach out—I’d love to connect!</p>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="box">
+            <h2><i class="fas fa-cogs"></i> Services</h2>
+            <p>I offer web development services including designing and building websites.</p>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="box">
+            <h2><i class="fas fa-envelope"></i> Contact</h2>
+            <p>Email me at <a href="mailto:manueldho2020@gmail.com">manueldho2020@gmail.com</a>.</p>
+            <button class="cta-button">Let's Connect!</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 My Personal Website. All rights reserved.</p>
+    </footer>
+
+    <!-- JavaScript to hide loader -->
+    <script>
+        window.addEventListener("load", () => {
+            document.body.classList.add("loaded");
+        });
+    </script>
+</body>
+</html>
